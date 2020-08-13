@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'components/app_bar.dart';
 import 'components/bottom_nav_bar.dart';
 
 void main() => runApp(MyApp());
@@ -21,9 +21,7 @@ class MyApp extends StatelessWidget {
               selectedIconTheme:
                   IconThemeData(color: Color(0xff3C516D), size: 32))),
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('BottomNavigationBar Sample'),
-        ),
+        appBar: UmmaAppBar(),
         bottomNavigationBar: BottomNavigation(),
       ),
     );
