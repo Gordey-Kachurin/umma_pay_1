@@ -25,7 +25,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
           BoxShadow(
               color: Color(0xffD1D1D6),
               offset: Offset(0, -0.5),
-              blurRadius: 54.3656)
+              blurRadius: 14.3656)
         ],
       ),
       child: BottomNavigationBar(

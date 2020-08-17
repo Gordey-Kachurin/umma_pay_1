@@ -5,7 +5,7 @@ class NamazTimeInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        margin: EdgeInsets.only(top: 8),
+        margin: EdgeInsets.only(top: 8, bottom: 16),
         // color: Colors.amber,
         width: 330,
         height: 24,
