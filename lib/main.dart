@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'screens/item_info_screen.dart';
 import 'screens/info_container_screen.dart';
 
 void main() => runApp(MyApp());
